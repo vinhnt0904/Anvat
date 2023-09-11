@@ -1,0 +1,118 @@
+.add-loaihang {
+  margin: 20px;
+}
+
+.add-loaihang h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.add-loaihang .form {
+  margin-bottom: 20px;
+}
+
+.add-loaihang .form p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.add-loaihang .form input {
+  padding: 6px;
+  width: 170px;
+  margin-bottom: 10px;
+}
+
+.add-loaihang .form .button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.add-loaihang .list-danh-muc {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.add-loaihang .list-danh-muc th,
+.add-loaihang .list-danh-muc td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.add-loaihang .list-danh-muc td a {
+  padding: 2px;
+}
+
+.add-loaihang .list-danh-muc th {
+  background-color: #f2f2f2;
+}
+
+.add-loaihang .list-danh-muc tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.add-loaihang .list-danh-muc tr:hover {
+  background-color: #e0e0e0;
+}
+
+.add-loaihang .list-danh-muc input[type="button"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.add-loaihang .list-danh-muc input[type="checkbox"] {
+  margin: 0;
+}
+
+/* update */
+.center {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 80%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.center h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.center p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.center input {
+  padding: 10px 20px;
+  width: 60%;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.center .button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.center a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.center a:hover {
+  text-decoration: underline;
+}

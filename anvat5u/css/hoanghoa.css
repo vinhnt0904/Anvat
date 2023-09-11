@@ -1,0 +1,94 @@
+.add-hanghoa {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.add-hanghoa h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.add-hanghoa .form p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.add-hanghoa .form input[type="text"],
+.add-hanghoa .form input[type="number"],
+.add-hanghoa .form textarea,
+.add-hanghoa .form select {
+  padding: 10px 0px;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.add-hanghoa .form input[type="date"] {
+  padding: 10px 0px;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.add-hanghoa .form .button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.add-hanghoa .form input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.add-hanghoa .list-danh-muc {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.add-hanghoa .list-danh-muc th,
+.add-hanghoa .list-danh-muc td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: center;
+}
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action a {
+  width: 100%;
+  height: 100%;
+  line-height: 100%;
+}
+
+.add-hanghoa .list-danh-muc th {
+  background-color: #f2f2f2;
+}
+
+.add-hanghoa .list-danh-muc tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.add-hanghoa .list-danh-muc tr:hover {
+  background-color: #e0e0e0;
+}
+
+.add-hanghoa .list-danh-muc input[type="button"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.add-hanghoa .list-danh-muc input[type="checkbox"] {
+  margin: 0;
+}

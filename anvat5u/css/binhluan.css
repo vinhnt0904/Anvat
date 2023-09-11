@@ -1,0 +1,68 @@
+.add-hanghoa {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.add-hanghoa h1 {
+  font-size: 24px;
+}
+
+.add-hanghoa .form {
+  margin-bottom: 20px;
+}
+
+.add-hanghoa .form input[type="text"],
+.add-hanghoa .form select {
+  padding: 6px;
+  width: 170px;
+  margin-right: 10px;
+}
+
+.add-hanghoa .form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.add-hanghoa .list-danh-muc {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.add-hanghoa .list-danh-muc th,
+.add-hanghoa .list-danh-muc td {
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.add-hanghoa .list-danh-muc th {
+  background-color: #f2f2f2;
+}
+
+.add-hanghoa .list-danh-muc tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.add-hanghoa .list-danh-muc tr:hover {
+  background-color: #e0e0e0;
+}
+
+.add-hanghoa .list-danh-muc input[type="button"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.add-hanghoa .list-danh-muc input[type="checkbox"] {
+  margin: 0;
+}

@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.danh-muc{
+    width: 100%;
+    background-color: gray;
+    margin:auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.danh-muc ul.menu-ngang{
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+}
+.danh-muc ul.menu-ngang li{
+    list-style-type: none;
+    margin-left:5px;
+}
+.danh-muc ul.menu-ngang .indexadmin{
+    color:#00AB9F;
+}
+.danh-muc ul.menu-ngang li a{
+    font-size:20px;
+    color:#ffffff;
+    text-decoration: none;
+    margin-right:15px;
+    position: relative;
+}
+.danh-muc ul.menu-ngang li a::before{
+    height: 20px;
+    /* padding:0 5px; */
+    content: "";
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left:-10%;
+    transform: translateY(-50%);
+    border-right:1px solid black;
+}
+
+.danh-muc ul.menu-ngang li a:hover{
+    color:#6608ff;
+}
+
+
+
+
+/* thêm loại hàng */
+.container .add-loaihang{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.add-loaihang .form{
+    width: 15%;
+    padding-left:22px;
+    height: 709px;
+    float:left;
+    border-right:1px solid #333;
+}
+.add-loaihang .form input.padding{
+    padding:7px 2px;
+}
+
+.add-loaihang .list{
+    width: 100%;
+    height: 8000px;
+    /* padding-left:15%; */
+}
+.add-loaihang table{
+    padding-left:27px;
+}
+
+
+
+
+/* thêm hàng hóa */
+.container .add-hanghoa{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.add-hanghoa .form{
+    width: 15%;
+    padding-left:22px;
+    height: 709px;
+    float:left;
+    border-right:1px solid #333;
+}
+.add-hanghoa .form .padding{
+    padding:7px 2px;
+}
+
+.add-hanghoa .list{
+    width: 100%;
+    height: 8000px;
+}
+.add-hanghoa table{
+    padding-left:27px;
+}
+
+.container .update-hanghoa{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.update-hanghoa .form{
+    width: 15%;
+    padding-left:22px;
+    height: 709px;
+    float:left;
+    border-right:1px solid #333;
+}
+.update-hanghoa .form .padding{
+    padding:7px 2px;
+}
